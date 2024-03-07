@@ -1,0 +1,353 @@
+@charset "UTF-8";
+
+/*共有部分*/
+html {
+  font: size 100%;
+}
+body {
+  font-family: sans-serif;
+  line: height 1.7;
+  color: #5e5e5c;
+  background-color:#FBB3B8;
+ background-image: url(img/7.png);
+    background-repeat: repeat;
+background-size:45%;
+
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 1100px;
+}
+
+.wrapper{
+max-width:90%;
+margin:0 auto;
+
+}
+
+.flex{
+display:flex;
+}
+
+
+
+.back{
+background-color:#fff;
+margin:0 50px;
+padding-top:140px;
+}
+/*header----------------*/
+
+.logo{
+width:35%;
+}
+
+.main-nav{
+display:flex;
+font-size:1.7rem;
+list-style:none;
+font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+margin-top:100px;
+}
+
+.main-nav li{
+margin-left:36px;
+
+}
+
+.main-nav a{
+color:#000;
+}
+
+.page-header{
+display:flex;
+justify-content:space-between;
+height:150px;
+}
+
+
+
+/*main-title----------------*/
+
+#hero{
+background-image:url(img/8e64ec6d-daa5-4a68-8eba-b01a8865d331.jpg);
+background-position:center;
+background-size:cover;
+height:650px;
+border-radius:30px;
+display:flex;
+align-items:end;
+margin-bottom:100px;
+
+}
+
+.hero-inner{
+color:#98714B;
+font-size:7.8rem;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+div .h2title{
+font-family: "Sawarabi Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+font-size:3rem;
+color:##5E5E5C;
+margin:50px;
+margin-left:150px;
+}
+
+.message{
+font-family: "Kaisei Opti", serif;
+  font-weight: 400;
+  font-style: normal;
+font-size:2.5rem;
+text-align:center;
+}
+
+.message-margin{
+margin:200px 0;
+}
+
+.tile-margin{
+margin-top:130px;
+margin-left:200px;
+}
+/*concept----------------*/
+ 
+.contener{
+justify-content:space-around;
+align-content: space-between;
+}
+
+
+.text{
+margin-left:60px;
+}
+
+.concept-title{
+font-size:2rem;
+font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.concept-img{
+width:10%;
+height:10%;
+}
+
+.shortcake{
+transform:rotate(350deg);
+margin-top:10px;
+}
+
+.tart{
+transform:rotate(10deg);
+margin-top:15px;
+}
+
+.RollCake{
+margin-top:140px;
+transform:rotate(980deg);
+}
+
+.Cake{
+margin-top:140px;
+transform:rotate(5deg);
+}
+
+.consept-text{
+font-size:1.2rem;
+line-height:1.7;
+margin-bottom:130px;
+
+}
+
+
+
+
+/*product----------------*/
+
+
+
+.product-inline{
+display:flex
+
+}
+
+
+.product{
+
+width:31%
+}
+
+.pr-img1,.pr-img3,.pr-img2{
+width:100%;
+}
+
+
+
+.product-title{
+font-size:1.3rem;
+}
+
+.product{
+margin:20px;
+}
+
+.product-wrapper{
+text-align:center;
+}
+
+.text-product{
+text-align:left;
+}
+
+.size{
+font-size:0.9rem;
+margin-left:15px;
+line-height:1.8;
+}
+/*botan----------------*/
+
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.7em 7em;
+  text-decoration: none;
+  color: #000;
+  border: solid 2px #000;
+  border-radius: 50px;
+  transition: .4s;
+  font-size:1.2rem;
+font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin:100px;
+}
+
+.btn-flat-border:hover {
+  background: #98714B;
+  color: white;
+}
+
+.button{
+text-align:center;
+}
+
+.space{
+margin-left:60px;
+}
+
+
+/*news----------------*/
+
+table td{
+padding:20px;
+font-size:1.2rem;
+border-bottom:2px dashed #E3E3E3;
+
+}
+
+.news-table{
+margin:0 auto;
+width:65%;
+}
+
+.day{
+border-bottom:5px solid #98714B;
+text-align:center;
+}
+
+.footer {
+width:100%;
+background:#98714B;
+text-align:center;
+padding:26px 0;
+margin-top:100px;
+}
+
+.footer p {
+color:#fff;
+font-size:0.875rem;
+}
+
+a{
+color:#5E5E5C;
+}
+
+a:hover{
+color:#eda724;
+}
+
+/*about----------------*/
+iframe{
+width:80%;
+}
+
+.map{
+text-align:center;
+margin:50px 0;
+}
+
+.about-table{
+padding-bottom:100px;
+}
+
+/*menu----------------*/
+
+.grid{
+display: grid;
+gap:26px;
+grid-template-columns:1fr 1fr 1fr;
+margin-top:6%;
+margin-bottom:50px;
+text-align:center;
+padding-bottom:100px;
+}
+
+.menu-img{
+width:70%;
+}
+
+/*contact----------------*/
+
+form div{
+margin-bottom:14px;
+}
+
+label{
+font-size:1.25rem;
+margin-bottom:10px;
+display:block;
+}
+
+input[type="text"],input[type="tel"],input[type="email"],textarea{
+background:rgba(255,255,255,.5);
+border-radius:5px;
+border:1px #000 solid;
+padding:10px;
+font-size:1rem;
+}
+
+input[type="text"],input[type="tel"],input[type="email"]{
+width:100%;
+max-width:240px;
+}
+textarea{
+width:100%;
+max-width:480px;
+height:6rem;
+}
+
+input[type="submit"]{
+padding:10px 40px;
+margin-bottom:150px;
+}
