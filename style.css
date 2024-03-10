@@ -6,9 +6,8 @@ html {
 }
 body {
   font-family: sans-serif;
-  line: height 1.7;
   color: #5e5e5c;
-  background-color:#FBB3B8;
+  background-color:#CCD4CB;
  background-image: url(img/7.png);
     background-repeat: repeat;
 background-size:45%;
@@ -19,7 +18,7 @@ a {
   text-decoration: none;
 }
 img {
-  max-width: 1100px;
+  max-width: 600px;
 }
 
 .wrapper{
@@ -39,20 +38,24 @@ background-color:#fff;
 margin:50px 50px;
 
 }
+
+
 /*header----------------*/
 
 .logo{
-width:35%;
+width:27%;
+margin-left:20px;
 }
 
 .main-nav{
 display:flex;
-font-size:1.7rem;
+font-size:2rem;
 list-style:none;
 font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-margin-top:100px;
+margin-top:80px;
+margin-right:20px;
 }
 
 .main-nav li{
@@ -61,15 +64,14 @@ margin-left:36px;
 }
 
 .main-nav a{
-color:#000;
+color:#444442;
 }
 
 .page-header{
 display:flex;
 justify-content:space-between;
-height:150px;
+height:10px;
 }
-
 
 
 /*main-title----------------*/
@@ -79,11 +81,10 @@ background-image:url(img/mainpage.jpg);
 background-position:center;
 background-size:cover;
 height:650px;
-
 display:flex;
 align-items:end;
 margin-bottom:100px;
-
+margin-top:150px;
 }
 
 .hero-inner{
@@ -108,12 +109,12 @@ margin-left:150px;
 font-family: "Kaisei Opti", serif;
   font-weight: 400;
   font-style: normal;
-font-size:2.5rem;
+font-size:3.3rem;
 text-align:center;
 }
 
 .message-margin{
-margin:200px 0;
+margin:2px 0;
 }
 
 .tile-margin{
@@ -125,7 +126,7 @@ margin-left:200px;
 .contener{
 justify-content:space-around;
 align-content: space-between;
-
+margin-top:250px;
 }
 .
 
@@ -172,6 +173,18 @@ margin-bottom:100px;
 
 }
 
+.images-between{
+text-align:center;
+height:580px;
+width:60%;
+background-image:url(img/img.png);
+background-size:cover;
+background-repeat:no-repeat;
+margin:0 auto;
+margin-bottom:220px;
+margin-top:50px;
+}
+
 
 
 
@@ -198,6 +211,9 @@ width:100%;
 
 .product-title{
 font-size:1.3rem;
+font-family: "Poppins", sans-serif;
+
+  font-style: normal;
 }
 
 .product{
@@ -224,18 +240,18 @@ line-height:1.8;
   padding: 0.7em 7em;
   text-decoration: none;
   color: #000;
-  border: solid 2px #000;
+  border: solid 1px #444442;
   border-radius: 50px;
   transition: .4s;
   font-size:1.2rem;
 font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight:400;
   font-style: normal;
   margin:100px;
 }
 
 .btn-flat-border:hover {
-  background: #98714B;
+  background:rgba(152, 113, 75,.65);
   color: white;
 }
 
@@ -297,12 +313,14 @@ margin-top:60px;
 background-image:url(img/img.jpg);
 background-size:cover;
 height:80vh;
+margin-top:155px;
 }
 
 .big-bg1{
 background-image:url(img/IMG_6018.JPG);
 background-size:cover;
 height:80vh;
+margin-top:155px;
 }
 
 .page-title{
@@ -313,6 +331,7 @@ font-family: "Sawarabi Mincho", serif;
   font-style: normal;
 font-size:7rem;
 color:rgba(94, 94, 92,.8);
+text-shadow: 0px 0px 13px rgba(247, 243, 242, .4);
 
 }
 
@@ -394,43 +413,40 @@ html {
 }
 body {
   font-family: sans-serif;
-  line: height 1.2;
   color: #5e5e5c;
-  background-color:#FBB3B8;
- background-image: url(img/7.png);
-    background-repeat: repeat;
-background-size:45%;
+  background-color:#CCD4CB;
+  background-image: url(img/7.png);
+  background-repeat: repeat;
+  background-size:45%;
 
 }
 
 a {
   text-decoration: none;
 }
-img {
-  max-width: 600px;
-}
+
 
 .wrapper{
-max-width:90%;
+max-width:100%;
 margin:0 auto;
-
 }
 
 
 .back{
 background-color:#fff;
 margin:15px 15px;
-padding-top:10px;
 }
 /*header----------------*/
 
 .logo{
-width:20%;
+width:50px;;
+
 }
 
 .page-header{
-flex-direction:column;
-align-items:center;
+height:75px;
+margin:0 auto;
+
 }
 
 .main-nav{
@@ -438,13 +454,13 @@ display:flex;
 font-size:1rem;
 list-style:none;
 font-family: "Poppins", sans-serif;
-  font-style: normal;
-
-
+font-style: normal;
+margin-top:30px;
+margin-right:20px;
 }
 
 .main-nav li{
-margin-left:25px;
+margin:10px;
 
 }
 
@@ -452,42 +468,39 @@ margin-left:25px;
 color:#000;
 }
 
-.page-header{
-display:block;
-
-}
-
 
 
 /*main-title----------------*/
 
 #hero{
-background-image:url(img/8e64ec6d-daa5-4a68-8eba-b01a8865d331.jpg);
+background-image:url(img/mainpage.jpg);
 background-position:center;
 background-size:cover;
-height:400px;
-border-radius:15px;
+height:270px;
+border-radius:5px;
 display:flex;
 align-items:end;
-margin-bottom:80px;
-
+margin:0 auto;
+width:97%;
 }
 
 .hero-inner{
 color:rgba(152, 113, 75,.65);
-font-size:3rem;
+font-size:2.3rem;
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-style: normal;
+ 
 }
 
 div .h2title{
 font-family: "Sawarabi Mincho", serif;
   font-weight: 400;
   font-style: normal;
-font-size:2rem;
+font-size:1.5rem;
 color:##5E5E5C;
-margin:30px;
+margin:0 25px;
+
 
 }
 
@@ -495,30 +508,26 @@ margin:30px;
 font-family: "Kaisei Opti", serif;
   font-weight: 400;
   font-style: normal;
-font-size:1rem;
 text-align:center;
+font-size:1.3rem;
+margin-bottom:50px;
+margin-top:70px;
 }
 
 .message-margin{
-margin:80px 0;
+margin:8px 0;
 }
 
-.tile-margin{
-margin-top:130px;
-margin-left:200px;
-}
 /*concept----------------*/
  
 .contener{
 justify-content:space-around;
 align-content: space-between;
+margin-top:10px;
 }
 
-
-
-
 .concept-title{
-font-size:1.5rem;
+font-size:1.2rem;
 font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -530,7 +539,7 @@ height:8.5%;
 
 .shortcake{
 transform:rotate(350deg);
-margin-top:10px;
+margin-top:15px;
 }
 
 .tart{
@@ -539,24 +548,30 @@ margin-top:15px;
 }
 
 .RollCake{
-margin-top:120px;
+margin-top:100px;
 transform:rotate(980deg);
+display:none
 }
 
 .Cake{
-margin-top:120px;
+margin-top:100px;
 transform:rotate(5deg);
+display:none
 }
 
 .consept-text{
-font-size:0.8rem;
-line-height:1.6;
+font-size:0.75rem;
+line-height:1.8;
 margin-bottom:30px;
 
 }
 
-
-
+.images-between{
+height:230px;
+width:100%;
+margin:0 auto;
+margin-bottom:60px;
+}
 
 /*product----------------*/
 
@@ -564,7 +579,6 @@ margin-bottom:30px;
 
 .product-inline{
 display:block;
-
 }
 
 
@@ -580,7 +594,7 @@ width:100%;
 
 
 .product-title{
-font-size:1.3rem;
+font-size:1rem;
 }
 
 
@@ -594,20 +608,21 @@ text-align:left;
 }
 
 .size{
-font-size:0.8rem;
+font-size:0.7rem;
 line-height:1.8;
+padding-right:15px;
 }
 /*botan----------------*/
 
 .btn-flat-border {
   display: inline-block;
-  padding: 0.7em 5em;
+  padding: 0.7em 3em;
   text-decoration: none;
   color: #000;
   border: solid 1px #000;
-  border-radius: 40px;
+  border-radius: 20px;
   transition: .4s;
-  font-size:1rem;
+  font-size:0.7rem;
 font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -624,22 +639,22 @@ text-align:center;
 }
 
 .space{
-margin-left:50px;
+margin-left:25px;
 }
 
 
 /*news----------------*/
 
 table td{
-padding:10px;
-font-size:1rem;
+padding:7px 0;
+font-size:0.7rem;
 border-bottom:2px dashed #E3E3E3;
 
 }
 
 .news-table{
 margin:0 auto;
-width:80%;
+width:90%;
 }
 
 .day{
@@ -651,13 +666,13 @@ text-align:center;
 width:100%;
 background:#98714B;
 text-align:center;
-padding:20px 0;
+padding:10px 0;
 margin-top:100px;
 }
 
 .footer p {
 color:#fff;
-font-size:0.875rem;
+font-size:0.5rem;
 }
 
 a{
@@ -670,12 +685,13 @@ color:#eda724;
 
 /*about----------------*/
 iframe{
-width:90%;
+width:100%;
+height:40vh;
 }
 
 .map{
 text-align:center;
-margin:50px 0;
+margin-bottom:30px;
 }
 
 .about-table{
@@ -685,48 +701,58 @@ padding-bottom:100px;
 .big-bg{
 background-image:url(img/img.jpg);
 background-size:cover;
-height:60vh;
+height:35vh;
+margin-bottom:25px;
+margin-top:3px;
+width:97%;
+margin:0 auto;
+border-radius:5px;
+
 }
 
 .big-bg1{
 background-image:url(img/IMG_6018.JPG);
 background-size:cover;
-height:60vh;
+height:35vh;
+margin-top:3px;
+width:97%;
+margin:0 auto;
+border-radius:5px;
 }
 
 .page-title{
-padding-top:165px;
+padding-top:90px;
 text-align:center;
 font-family: "Sawarabi Mincho", serif;
-  font-weight: 400;
-  font-style: normal;
-font-size:5rem;
+font-style: normal;
+font-size:2.7rem;
 color:rgba(94, 94, 92,.8);
-
+text-shadow: 3px 3px 13px rgba(247, 243, 242, .5);
 }
+
 /*menu----------------*/
 
 .grid{
 display:block;
-margin-top:6%;
-margin-bottom:50px;
 text-align:center;
-padding-bottom:100px;
 }
 
 .menu-img{
-width:70%;
+width:100%;
 }
 
+.menu-text{
+font-size:0.8rem;
+}
 /*contact----------------*/
 
 form div{
-margin-bottom:14px;
+margin-bottom:7px;
 }
 
 label{
-font-size:1.25rem;
-margin-bottom:10px;
+font-size:1rem;
+margin-bottom:7px;
 display:block;
 }
 
@@ -741,16 +767,17 @@ font-size:1rem;
 input[type="text"],input[type="tel"],input[type="email"]{
 width:100%;
 max-width:240px;
+height:1rem;
 }
 textarea{
-width:100%;
+width:80%;
 max-width:480px;
-height:6rem;
+height:5rem;
 }
 
 input[type="submit"]{
 padding:10px 40px;
-margin-bottom:150px;
+margin-bottom:100px;
 }
 
 
