@@ -237,11 +237,11 @@ line-height:1.8;
 
 .btn-flat-border {
   display: inline-block;
-  padding: 0.7em 7em;
+  padding: 0.7em 4em;
   text-decoration: none;
   color: #000;
   border: solid 1px #444442;
-  border-radius: 50px;
+  border-radius: 40px;
   transition: .4s;
   font-size:1.2rem;
 font-family: "Poppins", sans-serif;
@@ -260,7 +260,7 @@ text-align:center;
 }
 
 .space{
-margin-left:60px;
+margin-left:40px;
 }
 
 
@@ -370,14 +370,35 @@ width:70%;
 
 /*contact----------------*/
 
+div.contact-text{
+text-align:center;
+margin-bottom:100px;
+background-color:#BCA38A;
+color:#fff;
+padding:10px;
+font-size:1.2rem;
+}
+
+.essential{
+background-color:red;
+padding:2px;
+color:#fff;
+border-radius:5px;
+margin-right:10px;
+font-size:0.7rem;
+}
+
+
 form div{
 margin-bottom:14px;
+text-align:center;
 }
 
 label{
-font-size:1.25rem;
+font-size:1.3rem;
 margin-bottom:10px;
 display:block;
+padding:5px;
 }
 
 input[type="text"],input[type="tel"],input[type="email"],textarea{
@@ -386,22 +407,27 @@ border-radius:5px;
 border:1px #000 solid;
 padding:10px;
 font-size:1rem;
+
 }
 
 input[type="text"],input[type="tel"],input[type="email"]{
 width:100%;
-max-width:240px;
+max-width:800px;
 }
 textarea{
 width:100%;
-max-width:480px;
-height:6rem;
+max-width:800px;
+height:7rem;
 }
 
 input[type="submit"]{
 padding:10px 40px;
-margin-bottom:150px;
+margin-bottom:100px;
+
 }
+
+
+
 /*モバイル版----------------*/
 
 @media(max-width:600px){
@@ -744,6 +770,25 @@ font-size:0.8rem;
 }
 /*contact----------------*/
 
+
+div.contact-text{
+text-align:center;
+margin-bottom:50px;
+background-color:#BCA38A;
+color:#fff;
+padding:2px;
+font-size:0.5rem;
+}
+
+.essential{
+padding:2px;
+color:#fff;
+border-radius:2px;
+margin-right:3px;
+font-size:0.5rem;
+}
+
+
 form div{
 margin-bottom:7px;
 }
@@ -768,7 +813,7 @@ max-width:240px;
 height:1rem;
 }
 textarea{
-width:80%;
+width:90%;
 max-width:480px;
 height:5rem;
 }
