@@ -443,10 +443,6 @@ html {
 }
 body {
   font-family: sans-serif;
-  color: #5e5e5c;
-  background-color:#CCD4CB;
-  background-image: url(img/7.png);
-  background-repeat: repeat;
   background-size:45%;
 
 }
@@ -463,7 +459,6 @@ margin:0 auto;
 
 
 .back{
-background-color:#fff;
 margin:15px 15px;
 }
 /*header----------------*/
@@ -501,9 +496,6 @@ margin:10px;
 /*main-title----------------*/
 
 #hero{
-background-image:url(img/mainpage.jpg);
-background-position:center;
-background-size:cover;
 height:270px;
 border-radius:5px;
 display:flex;
@@ -513,20 +505,18 @@ width:97%;
 }
 
 .hero-inner{
-color:rgba(152, 113, 75,.65);
 font-size:2.3rem;
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-style: normal;
+font-family: "Dancing Script", cursive;
+font-optical-sizing: auto;
+font-style: normal;
  
 }
 
 div .h2title{
 font-family: "Sawarabi Mincho", serif;
-  font-weight: 400;
-  font-style: normal;
+font-weight: 400;
+font-style: normal;
 font-size:1.5rem;
-color:##5E5E5C;
 margin:25px 0;
 
 
@@ -534,8 +524,8 @@ margin:25px 0;
 
 .message{
 font-family: "Kaisei Opti", serif;
-  font-weight: 400;
-  font-style: normal;
+font-weight: 400;
+font-style: normal;
 text-align:center;
 font-size:1.3rem;
 margin-bottom:50px;
@@ -557,8 +547,8 @@ margin-top:10px;
 .concept-title{
 font-size:1.2rem;
 font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+font-weight: 400;
+font-style: normal;
 }
 .concept-img{
 width:8.5%;
@@ -611,7 +601,6 @@ display:block;
 
 
 .product{
-
 width:100%
 }
 
@@ -643,30 +632,19 @@ padding-right:15px;
 /*botan----------------*/
 
 .btn-flat-border {
-  display: inline-block;
-  padding: 0.7em 3em;
-  text-decoration: none;
-  color: #000;
-  border: solid 1px #000;
-  border-radius: 20px;
-  transition: .4s;
-  font-size:0.7rem;
+display: inline-block;
+padding: 0.7em 3em;
+text-decoration: none;
+border: solid 1px #000;
+border-radius: 20px;
+transition: .4s;
+font-size:0.7rem;
 font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  margin:50px;
-background:#fff;
+font-weight: 300;
+font-style: normal;
+margin:50px;
 }
 
-.btn-flat-border:hover {
-  background: rgba(152, 113, 75,.65)
-  color: white;
-}
-
-.button{
-text-align:center;
-background:#fff;
-}
 
 .space{
 margin-left:25px;
@@ -694,24 +672,15 @@ text-align:center;
 
 .footer {
 width:100%;
-background:#98714B;
 text-align:center;
 padding:10px 0;
 margin-top:100px;
 }
 
 .footer p {
-color:#fff;
 font-size:0.5rem;
 }
 
-a{
-color:#5E5E5C;
-}
-
-a:hover{
-color:#eda724;
-}
 
 /*about----------------*/
 iframe{
@@ -729,20 +698,15 @@ padding-bottom:100px;
 }
 
 .big-bg{
-background-image:url(img/img.jpg);
-background-size:cover;
 height:35vh;
 margin-bottom:25px;
 margin-top:3px;
 width:97%;
 margin:0 auto;
 border-radius:5px;
-
 }
 
 .big-bg1{
-background-image:url(img/IMG_6018.JPG);
-background-size:cover;
 height:35vh;
 margin-top:3px;
 width:97%;
@@ -781,7 +745,6 @@ div.contact-text{
 text-align:center;
 margin-bottom:50px;
 background-color:#BCA38A;
-color:#fff;
 padding:2px;
 font-size:0.5rem;
 }
@@ -834,26 +797,6 @@ margin-bottom:100px;
 
 width:70%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
