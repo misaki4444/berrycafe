@@ -282,7 +282,7 @@ text-align:center;
 
 .footer {
 width:100%;
-background:#98714B;
+background:#ad9174;
 text-align:center;
 padding:26px 0;
 margin-top:100px;
@@ -655,15 +655,17 @@ font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
   margin:50px;
+background:#fff;
 }
 
 .btn-flat-border:hover {
-  background: #98714B;
+  background: rgba(152, 113, 75,.65)
   color: white;
 }
 
 .button{
 text-align:center;
+background:#fff;
 }
 
 .space{
