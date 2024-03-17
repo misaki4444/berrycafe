@@ -36,7 +36,7 @@ display:flex;
 .back{
 background-color:#fff;
 margin:50px 50px;
-
+padding-bottom:100px;
 }
 
 
@@ -85,6 +85,7 @@ display:flex;
 align-items:end;
 margin-bottom:100px;
 margin-top:150px;
+border-radius:5px;
 }
 
 .hero-inner{
@@ -204,13 +205,13 @@ margin-right:20px;
 .numbers{
 
 text-align:center;
-padding-bottom:100px;
+
 }
 
 .nb-1{
-border:solid 1px #000;
+border:solid 1px #444442;;
 border-radius: 50%;
-padding:0 20px;
+padding:7px 17px;
 
 }
 
@@ -300,6 +301,23 @@ text-align:center;
 margin-left:40px;
 }
 
+/*トップ　コンタクト----------------*/
+
+div .top-contact{
+font-size:1.3rem;
+text-align:center;
+line-height: 1.8;
+}
+
+div .contact-back{
+
+padding-top:40px;
+border:dotted 4px #AD9174;
+border-radius: 48%;
+width:63%;
+
+}
+
 
 /*news----------------*/
 
@@ -348,6 +366,8 @@ margin-top:60px;
 }
 .big-bg{
 background-image:url(img/img.jpg);
+border-radius:5px;
+margin:10px;
 background-size:cover;
 height:80vh;
 margin-top:155px;
@@ -355,6 +375,8 @@ margin-top:155px;
 
 .big-bg1{
 background-image:url(img/IMG_6018.JPG);
+border-radius:5px;
+margin:10px;
 background-size:cover;
 height:80vh;
 margin-top:155px;
@@ -414,6 +436,7 @@ background-color:#BCA38A;
 color:#fff;
 padding:10px;
 font-size:1.2rem;
+border-radius: 5px;;
 }
 
 .essential{
@@ -500,6 +523,7 @@ margin:0 auto;
 
 .back{
 margin:15px 15px;
+padding-bottom:20px;
 }
 /*header----------------*/
 
@@ -639,27 +663,19 @@ margin-top:60px;
 
 div .news-margin{
 padding-bottom:60px;
-
 }
 
 .page-numbers{
 font-size:0.7rem;
-
 margin-right:20px;
-
 }
 
 .numbers{
 
-
-padding-bottom:40px;
 }
 
 .nb-1{
-
-
 padding:0 5px;
-
 }
 
 
@@ -723,6 +739,23 @@ margin:50px;
 
 .space{
 margin-left:25px;
+}
+
+/*トップ　コンタクト----------------*/
+
+div .top-contact{
+font-size:0.7rem;
+text-align:center;
+line-height: 1;
+}
+
+div .contact-back{
+
+padding-top:40px;
+border:dotted 3px #AD9174;
+border-radius: 48%;
+width:90%;
+
 }
 
 
@@ -818,6 +851,9 @@ font-size:0.8rem;
 
 div.contact-text{
 text-align:center;
+margin-top:10px;
+margin-right:5px;
+margin-left:5px;
 margin-bottom:50px;
 background-color:#BCA38A;
 padding:2px;
