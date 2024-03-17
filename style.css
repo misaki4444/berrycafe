@@ -183,6 +183,46 @@ margin-top:50px;
 }
 
 
+/*もっとみる----------------*/
+
+div .news-wrapper{
+margin-top:300px;
+}
+
+div .news-margin{
+padding-bottom:100px;
+
+}
+
+.page-numbers{
+font-size:1.2rem;
+
+margin-right:20px;
+
+}
+
+.numbers{
+
+text-align:center;
+padding-bottom:100px;
+}
+
+.nb-1{
+border:solid 1px #000;
+border-radius: 50%;
+padding:0 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*product----------------*/
@@ -590,6 +630,41 @@ width:100%;
 margin:0 auto;
 margin-bottom:60px;
 }
+
+/*もっとみる----------------*/
+
+div .news-wrapper{
+margin-top:60px;
+}
+
+div .news-margin{
+padding-bottom:60px;
+
+}
+
+.page-numbers{
+font-size:0.7rem;
+
+margin-right:20px;
+
+}
+
+.numbers{
+
+
+padding-bottom:40px;
+}
+
+.nb-1{
+
+
+padding:0 5px;
+
+}
+
+
+
+
 
 /*product----------------*/
 
