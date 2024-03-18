@@ -312,8 +312,8 @@ line-height: 1.8;
 div .contact-back{
 
 padding-top:40px;
-border:dotted 4px #AD9174;
-border-radius: 48%;
+border:double thick #AD9174;
+border-radius: 46%;
 width:63%;
 
 }
@@ -523,7 +523,7 @@ margin:0 auto;
 
 .back{
 margin:15px 15px;
-padding-bottom:20px;
+padding-bottom:25px;
 }
 /*header----------------*/
 
@@ -733,7 +733,8 @@ font-size:0.7rem;
 font-family: "Poppins", sans-serif;
 font-weight: 300;
 font-style: normal;
-margin:50px;
+margin-top:30px;
+margin-bottom:40px;
 }
 
 
@@ -752,10 +753,9 @@ line-height: 1;
 div .contact-back{
 
 padding-top:40px;
-border:dotted 3px #AD9174;
-border-radius: 48%;
+border-radius: 46%;
 width:90%;
-
+border:double  #AD9174;
 }
 
 
@@ -764,7 +764,7 @@ width:90%;
 table td{
 padding:7px 0;
 font-size:0.7rem;
-border-bottom:2px dashed #E3E3E3;
+border-bottom:2px medium #E3E3E3;
 
 }
 
