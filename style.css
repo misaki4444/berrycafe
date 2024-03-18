@@ -904,12 +904,12 @@ font-size:1rem;
 
 input[type="text"],input[type="tel"],input[type="email"]{
 width:100%;
-max-width:240px;
+max-width:300px;
 height:1rem;
 }
 textarea{
 width:90%;
-max-width:480px;
+max-width:300px;
 height:5rem;
 }
 
