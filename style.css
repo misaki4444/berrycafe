@@ -313,7 +313,7 @@ div .contact-back{
 
 padding-top:40px;
 border:double thick #AD9174;
-border-radius: 46%;
+border-radius: 47%;
 width:63%;
 
 }
@@ -753,12 +753,25 @@ line-height: 1;
 div .contact-back{
 
 padding-top:40px;
-border-radius: 46%;
-width:90%;
+border-radius: 47%;
+width:97%;
 border:double  #AD9174;
 }
 
-
+.btn-flat-border2 {
+display: inline-block;
+padding: 0.7em 1em;
+text-decoration: none;
+border: solid 1px #000;
+border-radius: 20px;
+transition: .4s;
+font-size:0.6rem;
+font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-style: normal;
+margin-top:30px;
+margin-bottom:40px;
+}
 /*news----------------*/
 
 table td{
