@@ -726,7 +726,7 @@ padding-right:15px;
 
 .btn-flat-border {
 display: inline-block;
-padding: 0.7em 3em;
+padding: 0.5rem 1.5rem;
 text-decoration: none;
 border: solid 1px #000;
 border-radius: 20px;
@@ -741,7 +741,7 @@ margin-bottom:40px;
 
 
 .space{
-margin-left:25px;
+margin-left:17px;
 }
 
 /*トップ　コンタクト----------------*/
